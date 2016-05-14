@@ -1,0 +1,11 @@
+Some notes:
+
+Bootstrap site
+MongoDB?
+
+types of sentences:
+Random - number of clauses (1 - 4)
+clause + ", " + clause + ", " + clause + "."
+First letter capitalized
+
+Pull from mixtape websites and hip-hop magazines
