@@ -8,7 +8,7 @@ router.get('/', function(req, res, next) {
 
 /* GET hello world page */
 router.get('/helloworld', function(req, res){
-  res.render('helloworld', {title: 'Hello, World!'});
+  res.render('index', {title: 'Hello, World!'});
 
 });
 module.exports = router;
