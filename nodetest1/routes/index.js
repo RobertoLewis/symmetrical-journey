@@ -11,4 +11,16 @@ router.get('/helloworld', function(req, res){
   res.render('index', {title: 'Hello, World!'});
 
 });
+
+/* GET userlist page */
+router.get('/userlist', function(req, res){
+  var db = req.db;
+  var collection = db.get('test');
+  collection.find({}, {}, function(e, docs){
+    res.render('userlist', {
+      "userlist": docs
+    });
+  });
+});
+
 module.exports = router;
