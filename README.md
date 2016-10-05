@@ -1,2 +1,2 @@
 # symmetrical-journey
-Wu-Ipsum
+some apps
