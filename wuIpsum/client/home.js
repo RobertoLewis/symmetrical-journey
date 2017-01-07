@@ -1,8 +1,8 @@
 $(document).ready(function() {
-  $("#action").click(function(){
-    $.get("lyrics", function( data, status ) {
+  $(".pullText").click(function(){
+    $.get("localhost:3000/lyrics", function( data, status ) {
       console.log("ergh");
-      $("#content")
+      $("#contentText")
       .append(data);
     });
 

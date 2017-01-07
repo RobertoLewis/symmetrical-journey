@@ -86,7 +86,7 @@ exports.getVerses = function (numberOfParagraphs, data){
   //console.log("lines:", paragraphStorage.lines);
   //breaks data into array of paragraphs
   graphs = exports.createParagraphArray(numberOfParagraphs, paragraphStorage.lines);
-  //console.log("graphs: ", graphs);
+  console.log("graphs: ", graphs);
 
   //converts array into paragraphs
   builtParagraphs = graphs.join();

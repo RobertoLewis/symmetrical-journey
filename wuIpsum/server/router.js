@@ -1,5 +1,5 @@
 var fs = require('fs');
-var parse = require('./lyricsParse');
+var parse = require('./lyricsParse.js');
 
 
 module.exports = function(app) {
@@ -11,7 +11,7 @@ module.exports = function(app) {
   //
   //   res.sendFile("../client/index.html");
   // });
-  app.get('lyrics', function (req, res) {
+  app.get('/lyrics', function (req, res) {
     console.log("let's get some lyrics!!");
 
     fs.readFile('triumph.txt', 'utf-8', function(err, data) {
@@ -24,6 +24,6 @@ module.exports = function(app) {
   });
   app.post('/', function (req, res) {
     console.log("blaaah");
-  res.send('Got a POST request')
+  res.send('Got a POST request');
 });
-}
+};

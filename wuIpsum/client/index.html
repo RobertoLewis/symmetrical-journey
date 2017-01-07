@@ -2,25 +2,70 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Wu Ipsum - A Wu-Tang Clan-Inspired Dummy Text Generator</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Wu Ipsum</title>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
-  <script src="home.js"></script>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
 
 </head>
 <body>
-  <div>
-    <h1>Wu Ipsum</h1>
-    <h2>A Wu-Tang Clan-Inspired Filler Text Generator</h2>
-  </div>
-  <div id="content"></div>
-  <menu>
-    <li><button id="action" type="button">
-      Let's take it back to '79
-    </button></li>
-    <li><button id="clear" type="button">
-      Clear, yo
-    </button></li>
-  </menu>
+  <div class="container">
+    <div class="headers">
+      <!-- title -->
+      <h1>Wu Ipsum</h1>
+      <!-- subheading -->
+      <h2>A Wu-Tang Clan-Inspired Filler Text Generator</h2>
+    </div>
+    <div class="row">
+      <div class="content col-sm-6 col-md-6 col-lg-6">
+        <!-- lyrics appear here -->
+        <div class="contentText">blah blah blah</div>
+      </div>
+      <div class="info col-sm-6 col-md-6 col-lg-6">
+        <div class="blurb">
+          <p>Wu-Tang Clan is an American hip hop group from New York City,
+            originally composed of East Coast rappers RZA, GZA,
+            Ol' Dirty Bastard, Method Man, Raekwon, Ghostface Killah,
+            Inspectah Deck, U-God and Masta Killa. Cappadonna later became an
+            official member of the group. The group was formed in and is
+            associated with the New York City borough of Staten Island.</p>
+            <p>The Wu-Tang Clan has released seven gold and platinum studio
+              albums with worldwide sales of more than 40 million albums,
+              including members' solo projects, since 1992.[1] Its debut album,
+              Enter the Wu-Tang (36 Chambers), is considered to be one of the
+              greatest albums in hip-hop history. It is said to have been
+              groundbreaking for hip-hop and one of the most important albums
+              of the hip-hop golden age.</p>
+        </div>
+        <!-- Large button group -->
+        <div class="btn-group-vertical">
 
+            <button class="pullText btn btn-default btn-lg" type="button">
+              Let's take it back to '79
+            </button>
+            <button class="clearText btn btn-default btn-lg" type="button">
+              Clear, yo
+            </button>
+
+        </div>
+
+      </div>
+
+    </div>
+
+
+
+
+
+  </div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="home.js"></script>
 </body>
 </html>
