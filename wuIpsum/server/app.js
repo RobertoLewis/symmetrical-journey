@@ -5,10 +5,10 @@ var bodyParser = require('body-parser');
 var app = express();
 var path = require('path');
 var router = require('router');
-var rapgeniusClient = require("rapgenius-js");
 var fs = require('fs');
 var parse = require('./lyricsParse.js');
 var cors = require('cors');
+
 
 app.use(morgan('combined'));
 app.use(cors());
