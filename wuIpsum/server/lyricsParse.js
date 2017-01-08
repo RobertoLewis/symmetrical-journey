@@ -9,7 +9,7 @@ exports.getRandomIntInclusive = function (min, max) {
 
 // picks a random start point in verseArray, builds a sentence with 1-4 clauses
 exports.createSentences = function (verseArray){
-  console.log("createSentences is running");
+  //console.log("createSentences is running");
 
   //variable declarations - chooses random start point between zero
   //and length -4
@@ -29,7 +29,7 @@ exports.createSentences = function (verseArray){
   var numberOfClauses = exports.getRandomIntInclusive(2, 4);
   var chosenVerses = currentVerses.slice(0, numberOfClauses);
 
-  console.log("numberOfClauses: ", numberOfClauses);
+  //console.log("numberOfClauses: ", numberOfClauses);
 
   //builds a sentence
   for (var i = 0;i <= chosenVerses.length - 1; i++){
@@ -86,7 +86,7 @@ exports.getVerses = function (numberOfParagraphs, data){
   //console.log("lines:", paragraphStorage.lines);
   //breaks data into array of paragraphs
   graphs = exports.createParagraphArray(numberOfParagraphs, paragraphStorage.lines);
-  console.log("graphs: ", graphs);
+  //console.log("graphs: ", graphs);
 
   //converts array into paragraphs
   builtParagraphs = graphs.join();

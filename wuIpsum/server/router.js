@@ -7,10 +7,12 @@ module.exports = function(app) {
   console.log("inside router");
   var lyrics = '';
 
-  // app.get('/', function (req, res) {
-  //
-  //   res.sendFile("../client/index.html");
-  // });
+  app.get('/', function (req, res) {
+
+    res.send({"yo"});
+  });
+
+
   app.get('/lyrics', function (req, res) {
     console.log("let's get some lyrics!!");
 
@@ -22,8 +24,8 @@ module.exports = function(app) {
 
     res.send(lyrics);
   });
-  app.post('/', function (req, res) {
-    console.log("blaaah");
-  res.send('Got a POST request');
-});
+//   app.post('/', function (req, res) {
+//     console.log("blaaah");
+//   res.send('Got a POST request');
+// });
 };
