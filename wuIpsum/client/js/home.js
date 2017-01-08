@@ -6,6 +6,8 @@ $(document).ready(function() {
     //   "text/html"
     //
     // );
+
+    // I'm getting errors below
     var jqxhr = $.get( "localhost:3000/lyrics", function() {
   console.log( "success" );
 })
@@ -19,12 +21,9 @@ $(document).ready(function() {
     console.log( "finished" );
   });
 
-
-
   });
-  $(".clearText").click(function(){console.log("clear it all!!");});
 
-
-
-
+  $(".clearText").click( function(){
+    console.log("clear it all!!");
+  });
 });
