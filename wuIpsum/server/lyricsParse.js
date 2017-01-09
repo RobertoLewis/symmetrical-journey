@@ -11,8 +11,7 @@ exports.getRandomIntInclusive = function (min, max) {
 exports.createSentences = function (verseArray){
   //console.log("createSentences is running");
 
-  //variable declarations - chooses random start point between zero
-  //and length -4
+  //variable declarations - chooses random start point between zero and length -4
   //calls getRandomIntInclusive
   var sentence = "";
   var verseStartIndex = exports.getRandomIntInclusive(0,
