@@ -12,6 +12,7 @@ body {
   background-repeat: no-repeat;
   height: inherit;
   width: inherit;
+  box-shadow: 3px 3px 4px black;
 }
 
 
@@ -19,7 +20,7 @@ body {
   border: 1px solid darkgrey;
   margin: 10px;
   width: 48%;
-  box-shadow: 3px 3px 4px darkgrey;
+  box-shadow: 3px 3px 4px black;
   min-height: 600px;
   border-radius: 25px;
 
@@ -40,6 +41,7 @@ body {
 
 button {
   margin: 10px;
+  box-shadow: 3px 3px 4px black;
 
 }
 
@@ -47,12 +49,25 @@ button {
   color: black;
 
 }
+.blurb {
+  margin-top: 10px;
+  padding: 5px;
+  border: 2px solid;
+  border-radius: 25px;
+  box-shadow: 3px 3px 4px black;
+  background-color: #dfc89f;
+
+}
+.thick {
+  font-weight: bold;
+}
 
 
 .footer {
   color: #AEB6BF;
   background-color:#2c2a37;
   border-radius: 25px;
+  box-shadow: 3px 3px 4px black;
 }
 
 h4 {
