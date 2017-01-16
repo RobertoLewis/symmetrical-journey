@@ -4,7 +4,6 @@ var morgan = require('morgan');
 var bodyParser = require('body-parser');
 var app = express();
 var path = require('path');
-var router = require('router');
 var fs = require('fs');
 var parse = require('./lyricsParse.js');
 var cors = require('cors');
