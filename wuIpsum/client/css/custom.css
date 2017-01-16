@@ -1,0 +1,17 @@
+.header-backing {
+  height: 500px;
+  margin: 0;
+  padding: 0;
+}
+.header-section {
+  background-image: url("http://i.imgur.com/wP7CIzq.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: inherit;
+}
+
+.info {
+  opacity: 1;
+  padding: 5px;
+  background-color: #080404;
+}
