@@ -17,7 +17,6 @@ app.use(bodyParser.json({ type: '*/*'}));
 app.use('/', express.static('../client'));
 
 app.get('/lyrics', function (req, res) {
-  console.log("let's get some lyrics!!");
 
   var lyrics = "";
   var pulledLyrics = new Promise (function (resolve, reject){
@@ -33,22 +32,7 @@ app.get('/lyrics', function (req, res) {
 
   });
 
-  // pulledLyrics.then(
-  //   res.send(lyrics)
-  // )
-  // .catch(
-  //       // Log the rejection reason
-  //       function(reason) {
-  //           console.log('Handle rejected promise ('+reason+') here.');
-  //       });
-
     });
-// router(app);
-
-
-
-
-
 
 // server
 var port = process.env.PORT || 3000;
