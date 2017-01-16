@@ -1,7 +1,5 @@
-
-
 $(document).ready(function() {
-
+// Pulls and appends paragraph of lyrics
   $(".pullText").click(function(){
 
     $.get("/lyrics", function(data) {
@@ -11,9 +9,8 @@ $(document).ready(function() {
 });
 
   });
-
+ // Clears lyrics from page
   $(".clearText").click( function(){
     $(".contentText").empty();
-    console.log("clear it all!!");
   });
 });

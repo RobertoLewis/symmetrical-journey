@@ -13,12 +13,19 @@ body {
   height: inherit;
   width: inherit;
 }
-.contentLeft {
 
-}
+
 .contentRight {
+  border: 1px solid darkgrey;
+  margin: 10px;
+  width: 48%;
+  box-shadow: 3px 3px 4px darkgrey;
+  min-height: 600px;
+  border-radius: 25px;
+
 
 }
+
 .info {
   opacity: 1;
   text-align: center;
@@ -35,16 +42,19 @@ button {
   margin: 10px;
 
 }
-.button1 {
-
-}
 
 .page-title {
   color: black;
 
 }
 
-.page-subtitle {
-  /*color: white;
-  background-color: #080404;*/
+
+.footer {
+  color: #AEB6BF;
+  background-color:#2c2a37;
+  border-radius: 25px;
+}
+
+h4 {
+  color: white;
 }
