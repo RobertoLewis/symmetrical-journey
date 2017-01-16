@@ -3,15 +3,17 @@
 $(document).ready(function() {
 
   $(".pullText").click(function(){
-    console.log("log it all!!");
+
     $.get("/lyrics", function(data) {
-    // console.log(data);
-    $(".contentText").append(data);
+      var paragraph = "<p>" + data + "</p>";
+
+    $(".contentText").append(paragraph);
 });
 
   });
 
   $(".clearText").click( function(){
+    $(".contentText").empty();
     console.log("clear it all!!");
   });
 });

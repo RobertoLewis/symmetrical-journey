@@ -1,5 +1,8 @@
+body {
+  background-color: gray;
+}
 .header-backing {
-  height: 500px;
+  height: 350px;
   margin: 0;
   padding: 0;
 }
@@ -8,10 +11,40 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   height: inherit;
+  width: inherit;
 }
+.contentLeft {
 
+}
+.contentRight {
+
+}
 .info {
   opacity: 1;
+  text-align: center;
   padding: 5px;
-  background-color: #080404;
+  width: 725px;
+  background-color: gray;
+  margin: auto;
+  margin-top: 100px;
+  border: 2px solid;
+  border-radius: 25px;
+}
+
+button {
+  margin: 10px;
+
+}
+.button1 {
+
+}
+
+.page-title {
+  color: black;
+
+}
+
+.page-subtitle {
+  /*color: white;
+  background-color: #080404;*/
 }
