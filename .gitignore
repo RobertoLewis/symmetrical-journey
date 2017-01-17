@@ -37,6 +37,4 @@ ehthumbs.db
 Thumbs.db
 
 .jshintrc
-/myapp/node_modules
-/nodetest1/node_modules
-/wuIpsum/server/node_modules
+node_modules
