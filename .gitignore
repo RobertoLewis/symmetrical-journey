@@ -38,3 +38,4 @@ Thumbs.db
 
 .jshintrc
 node_modules
+build/*.js

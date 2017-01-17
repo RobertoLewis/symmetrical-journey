@@ -1,8 +1,9 @@
 {
-  "name": "server",
+  "name": "WuIpsum",
   "version": "1.0.0",
   "engines": {
-    "node": "6.0.0"
+    "node": "6.0.0",
+    "npm": "3.9.1"
   },
   "description": "",
   "main": "app.js",
@@ -14,14 +15,10 @@
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.15.2",
+    "cli": "^1.0.1",
     "cors": "^2.8.1",
     "morgan": "^1.7.0",
     "nodemon": "^1.11.0"
-  },
-  "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-contrib-concat": "^1.0.1",
-    "grunt-contrib-jshint": "^1.1.0",
-    "grunt-contrib-uglify": "^2.0.0"
   }
+
 }
