@@ -5,7 +5,7 @@ var bodyParser = require('body-parser');
 var app = express();
 var path = require('path');
 var fs = require('fs');
-var parse = require('./lyricsParse.js');
+var parse = require('./lyrics-parse.js');
 var cors = require('cors');
 
 
