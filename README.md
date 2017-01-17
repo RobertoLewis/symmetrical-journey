@@ -1,2 +1,3 @@
 # symmetrical-journey
-some apps
+Wu-Tang Ipsum
+A filler text generator
