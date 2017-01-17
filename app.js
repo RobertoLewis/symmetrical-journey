@@ -36,5 +36,6 @@ app.get('/lyrics', function (req, res) {
 // server
 var port = process.env.PORT || 3000;
 var server = http.createServer(app);
-server.listen(port);
-console.log('WuIpsum listening on: ', port);
+server.listen(port, function(){
+  console.log('WuIpsum listening on: ' + port);
+});
